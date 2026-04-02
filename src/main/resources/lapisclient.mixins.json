@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.lapisclient.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"InGameHudMixin",
+		"GameRendererMixin",
+		"MinecraftClientMixin",
+		"PlayerEntityRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

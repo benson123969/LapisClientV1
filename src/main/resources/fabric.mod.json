@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "lapisclient",
+	"version": "${version}",
+	"name": "Lapis Client",
+	"description": "A powerful PVP client for Minecraft",
+	"authors": [
+		"Lapis Client Team"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/lapisclient/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.lapisclient.LapisClient"
+		]
+	},
+	"mixins": [
+		"lapisclient.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
